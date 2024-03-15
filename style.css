@@ -1,0 +1,87 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #555;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+main {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.apps {
+  margin-top: 20px;
+}
+
+.app {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app img {
+  max-width: 100%;
+  height: auto;
+}
+
+.app h3 {
+  margin: 10px 10px 10px 10px;
+  
+}
+.app a{
+  margin-left: 90px;
+  background: #4d9559;
+  display: inline-block;
+  color: white;
+  border: 1px solid transparent;
+  padding: 12px 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all .55s ease;
+}
+.app a:hover{
+  background: transparent;
+  border: 1px solid #555;
+  color: black;
+  transform: translateX(8px);
+}
+footer {
+  background-color: #296;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+@media (max-width: 1535px){
+  main {
+  max-width: 800px;
+  margin: 20px auto;
+} 
+button {
+  padding: center;
+  margin-bottom: center;
+  margin: center;
+}
+  
+}
